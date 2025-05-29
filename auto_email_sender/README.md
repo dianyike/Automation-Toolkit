@@ -12,13 +12,9 @@
 
 🔧 使用技術
 smtplib, email.mime：寄送 Email
-
 schedule：設定每日定時任務
-
 pandas, openpyxl：處理收件人 Excel 名單
-
 logging：日誌記錄發送結果
-
 os, sys, datetime：檔案與時間處理
 
 🚀 使用方法
@@ -47,28 +43,12 @@ user2@example.com
 
 TXT（.txt）
 每一行一個 Email：
-
-graphql
-複製
-編輯
 user1@example.com  
 user2@example.com  
+
 🧠 學習筆記
 這個專案是為了學習如何用 Python 完成實用的自動化應用。過程中練習了：
-
 發送郵件流程與 MIME 格式
-
 檔案處理、附件打包技巧
-
 如何設計使用者互動流程（CLI）
-
 定時任務與日誌管理
-
-📝 待優化項目（未來可加）
-✅ 改用 dotenv 管理帳密
-
-✅ GUI 界面（如 Tkinter）
-
-✅ 多人群發支援副本 / 密件副本（Cc / Bcc）
-
-✅ 郵件樣式改為 HTML
