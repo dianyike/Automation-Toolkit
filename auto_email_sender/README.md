@@ -1,7 +1,7 @@
-📬 自動寄信程式（Auto Email Sender）
+#📬 自動寄信程式（Auto Email Sender）
 這是一個使用 Python 撰寫的自動寄信工具，支援收件人名單讀取、附件添加、排程發送等功能。適合用於日常報表通知、自動提醒等場景。
 
-📌 功能特色
+#📌 功能特色
 ✅ 支援 Excel 或 TXT 檔作為收件人名單來源
 
 ✅ 可添加多個附件寄送
@@ -10,7 +10,7 @@
 
 ✅ 記錄每次發送結果與錯誤於 email_sender.log
 
-🔧 使用技術
+#🔧 使用技術
 smtplib, email.mime：寄送 Email
 schedule：設定每日定時任務
 pandas, openpyxl：處理收件人 Excel 名單
